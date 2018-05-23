@@ -1,0 +1,63 @@
+---
+title: A great title
+author: Author One$^{1}$, Author Two$^1$, and  Author Three$^2$
+csl: ecology.csl
+output:
+  pdf_document:
+    keep_tex: yes
+  html_document: default
+geometry: left=1in, right=1in, top=1in, bottom=1in, headheight=12pt, letterpaper
+header-includes:
+- \usepackage{mathptmx}
+- \usepackage{bm}
+- \usepackage{setspace}
+- \usepackage{booktabs}
+- \doublespacing
+- \usepackage{lineno}
+- \linenumbers
+fontsize: 12pt
+bibliography: refs.bib
+---
+
+\setlength{\abovedisplayskip}{0pt}
+\raggedright
+
+$^1$ Department of Wildland Resources and the Ecology Center, Utah State University, Logan, UT, United States
+
+$^2$ Some other affiliation
+
+# Abstract
+
+This is an R Markdown manuscript template.
+See link for more information on R Markdown tips and tricks
+
+*Keywords: R Markdown, manuscripts, etc.*
+
+# Introduction
+
+Put intro here.
+And make sure to cite good papers [@Teller2016; @Tredennick2017a].
+Also cite papers in text, like I am sure @Teller2016 did at some point.
+
+# Methods
+
+What did you do?
+
+##  Study site (subsection)
+
+##  Statistical analysis (subsection)
+
+# Results
+
+Wow, great results (Figure 1, Table 1).
+
+![ Whoa, a bar graph with a caption. ](../figures/lab_results_fig.pdf){ height=2in }
+
+
+
+
+# Discussion
+
+Something profound.
+
+# References
